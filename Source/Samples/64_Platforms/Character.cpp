@@ -29,9 +29,6 @@
 #include <Urho3D/Scene/Scene.h>
 #include <Urho3D/Scene/SceneEvents.h>
 #include <Urho3D/Math/Ray.h>
-
-//#include <Urho3D/Physics/PhysicsUtils.h>
-//#include <Bullet/BulletDynamics/Dynamics/btRigidBody.h>
 #include <SDL/SDL_log.h>
 
 #include "Character.h"

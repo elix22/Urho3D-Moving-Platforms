@@ -127,6 +127,10 @@ void CharacterDemo::ChangeDebugHudText()
         dbgText = GetSubsystem<DebugHud>()->GetMemoryText();
         dbgText->SetColor(Color::CYAN);
         dbgText->SetTextEffect(TE_NONE);
+
+        dbgText = GetSubsystem<DebugHud>()->GetModeText();
+        dbgText->SetColor(Color::CYAN);
+        dbgText->SetTextEffect(TE_NONE);
     }
 }
 
